@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    android:elevation="4dp"
+    android:padding="16dp"
+    android:background="?android:attr/selectableItemBackground"
+    app:cardCornerRadius="12dp">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1"
+        android:padding="8dp"
+        android:gravity="center_horizontal">
+
+        <TableRow>
+            <TextView
+                android:id="@+id/tvRutLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RUT:"
+                android:paddingEnd="8dp"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvRut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RUT"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/tvNombreLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre:"
+                android:paddingEnd="8dp"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/tvApellidosLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apellidos:"
+                android:paddingEnd="8dp"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvApellidos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apellidos"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/tvEstadoLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Estado:"
+                android:paddingEnd="8dp"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvEstado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Estado"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/tvFechaHoraLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fecha y Hora:"
+                android:paddingEnd="8dp"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvFechaHora"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fecha y Hora"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/btnShare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Compartir"
+                android:textSize="16sp" />
+        </TableRow>
+
+    </TableLayout>
+</androidx.cardview.widget.CardView>
